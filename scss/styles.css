@@ -391,7 +391,7 @@ body {
 }
 
 .section__header {
-  background: url("../img/Komol.webp") 750px 0px no-repeat, url("../img/fonbg.webp") 0 0/100% auto no-repeat;
+  background: url("./img/Komol.webp") 750px 0px no-repeat, url("./img/fonbg.webp") 0 0/100% auto no-repeat;
   z-index: 2;
   height: 100vh;
   position: relative;
@@ -402,14 +402,14 @@ body {
 }
 
 .section__header::before {
-  content: url("../img/left-pseudo.webp");
+  content: url("./img/left-pseudo.webp");
   position: absolute;
   top: 300px;
   left: 0;
 }
 
 .section__header::after {
-  content: url("../img/right-pseudo.webp");
+  content: url("./img/right-pseudo.webp");
   position: absolute;
   top: 110px;
   right: 220px;
