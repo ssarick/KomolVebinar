@@ -829,6 +829,11 @@ body {
   padding: 5px;
 }
 
+.section__header__wrapper__outer_gold b {
+  font-weight: 400;
+  color: #E2C58F;
+}
+
 .section__header__wrapper__outer_gold__inner_black {
   font-family: "GilroyReg", sans-serif;
   background: url("../img/Rectangle24.webp") no-repeat;
@@ -848,12 +853,22 @@ body {
   max-width: 60%;
 }
 
+.section__header__wrapper__seconds-promo .display {
+  position: absolute;
+  top: -2px;
+  left: -95px;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 100%;
+  text-align: center;
+}
+
 .section__header__wrapper__seconds-promo b {
   font-size: 22px;
 }
 
 .section__header__wrapper__seconds-promo::before {
-  content: url("../img/timer.png");
+  content: url("../img/Group 21.png");
   position: absolute;
   top: -30px;
   left: -130px;
@@ -1030,6 +1045,16 @@ body {
     max-width: 100%;
     text-align: center;
   }
+  .section__header__wrapper__seconds-promo .display {
+    position: absolute;
+    top: 67px;
+    left: 45%;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 100%;
+    text-align: center;
+    z-index: 1;
+  }
   .section__header__wrapper__seconds-promo b {
     font-size: 18px;
   }
@@ -1154,6 +1179,16 @@ body {
     max-width: 50%;
     margin: 0 auto;
     text-align: center;
+  }
+  .section__header__wrapper__seconds-promo .display {
+    position: absolute;
+    top: 67px;
+    left: 45%;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 100%;
+    text-align: center;
+    z-index: 1;
   }
   .section__header__wrapper__seconds-promo b {
     font-size: 18px;
@@ -2319,9 +2354,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   text-align: center;
 }
 
@@ -2494,8 +2529,7 @@ body {
     display: block;
     font-size: 20px;
     margin-top: 0px;
-    margin-bottom: 40px;
-    margin-left: 30px;
+    margin: 20px auto;
   }
   .section__book__wrapper__number::before {
     content: url("../img/phone_24px.png");
